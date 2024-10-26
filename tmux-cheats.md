@@ -21,6 +21,7 @@
 ### Close Session
 
 * `tmux kill-session [-t name]` (`:kill-session`)
+* `tmux kill-session -a` - kill all sessions except current session
 
 ## Windows
 
