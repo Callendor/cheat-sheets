@@ -86,6 +86,34 @@
 
 * `<C-s>x` (`:kill-pane`) - kill current pane
 
+### Scroll
+
+* `<C-s>[` -- enters scroll mode
+* (while in scroll mode) 
+* `q` - exits scroll mode
+* `<S-k>` - scroll up
+* `<S-j>` - scroll down
+
+```
+ The default command key bindings are:
+
+[           Enter copy mode to copy text or view the history.
+
+Function                     vi              emacs
+--------                     --              -----
+Half page down               C-d             M-Down
+Half page up                 C-u             M-Up
+Next page                    C-f             Page down
+Previous page                C-b             Page up
+Scroll down                  C-Down or C-e   C-Down
+Scroll up                    C-Up or C-y     C-Up
+Search again                 n               n
+Search again in reverse      N               N
+Search backward              ?               C-r
+Search forward               /               C-s
+
+```
+
 ## Misc
 
 * `<C-s>t` - show time
